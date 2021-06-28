@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v5.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v5.0": {
+      "MisereTicTacToe.WPF/1.0.0": {
+        "runtime": {
+          "MisereTicTacToe.WPF.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MisereTicTacToe.WPF/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

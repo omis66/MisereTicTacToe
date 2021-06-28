@@ -1,0 +1,89 @@
+﻿<Window x:Class="MisereTicTacToe.WPF.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:MisereTicTacToe.WPF"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="495" Width="400">
+	<Grid>
+		<Grid.RowDefinitions>
+			<RowDefinition Height="*"/>
+			<RowDefinition Height="*"/>
+		</Grid.RowDefinitions>
+		<Grid.ColumnDefinitions>
+			<ColumnDefinition Width="*"/>
+			<ColumnDefinition Width="*"/>
+		</Grid.ColumnDefinitions>
+		<StackPanel Grid.ColumnSpan="2" Grid.RowSpan="2">
+			<Grid Height="400" Margin="5,5,5,0">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+				<Grid.RowDefinitions>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="*"/>
+					<RowDefinition Height="*"/>
+				</Grid.RowDefinitions>
+
+				<Border Grid.Row="0" Grid.Column="0" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_0_0_MouseDown">
+					<TextBlock x:Name="cell_0_0" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="0" Grid.Column="1" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_0_1_MouseDown">
+					<TextBlock x:Name="cell_0_1" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="0" Grid.Column="2" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_0_2_MouseDown">
+					<TextBlock x:Name="cell_0_2" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="1" Grid.Column="0" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_1_0_MouseDown">
+					<TextBlock x:Name="cell_1_0" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="1" Grid.Column="1" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_1_1_MouseDown">
+					<TextBlock x:Name="cell_1_1" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="1" Grid.Column="2" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_1_2_MouseDown">
+					<TextBlock x:Name="cell_1_2" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="2" Grid.Column="0" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_2_0_MouseDown">
+					<TextBlock x:Name="cell_2_0" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="2" Grid.Column="1" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_2_1_MouseDown">
+					<TextBlock x:Name="cell_2_1" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+
+				<Border Grid.Row="2" Grid.Column="2" Margin="1" BorderBrush="LightGray" BorderThickness="1"
+						PreviewMouseDown="Cell_2_2_MouseDown">
+					<TextBlock x:Name="cell_2_2" FontSize="75" VerticalAlignment="Center" TextAlignment="Center"/>
+				</Border>
+			</Grid>
+
+			<Grid Margin="5">
+				<Grid.ColumnDefinitions>
+					<ColumnDefinition Width="*"/>
+					<ColumnDefinition Width="*"/>
+				</Grid.ColumnDefinitions>
+
+				<Button Height="40" Grid.Column="0" Margin="0,0,2.5,0" Click="Restart_Button_Click">Restart</Button>
+				<Button Height="40" Grid.Column="1" Margin="2.5,0,0,0" Click="Start_Button_Click">Start</Button>
+			</Grid>
+		</StackPanel>
+	</Grid>
+</Window>

@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31410.414
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MisereTicTacToe.WPF", "MisereTicTacToe.WPF\MisereTicTacToe.WPF.csproj", "{53887E0B-9709-408E-9C08-DB835AA49AF7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MisereTicTacToe.Tests", "MisereTicTacToe.Tests\MisereTicTacToe.Tests.csproj", "{CF0B9746-3BBF-4DD4-97B5-09E6CF195746}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53887E0B-9709-408E-9C08-DB835AA49AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53887E0B-9709-408E-9C08-DB835AA49AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53887E0B-9709-408E-9C08-DB835AA49AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53887E0B-9709-408E-9C08-DB835AA49AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF0B9746-3BBF-4DD4-97B5-09E6CF195746}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF0B9746-3BBF-4DD4-97B5-09E6CF195746}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF0B9746-3BBF-4DD4-97B5-09E6CF195746}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF0B9746-3BBF-4DD4-97B5-09E6CF195746}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {FE7FCE0A-1A26-4F78-89C2-408D2018561A}
+	EndGlobalSection
+EndGlobal
